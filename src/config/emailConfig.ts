@@ -15,7 +15,6 @@ export interface EmailConfig {
   settings: EmailProviderConfig;
 }
 
-// Common email provider configurations
 const emailProviders: Record<string, EmailProviderConfig> = {
   gmail: {
     host: "smtp.gmail.com",
